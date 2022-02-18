@@ -14,7 +14,7 @@ class HelloFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_name, container, false)
+        return inflater.inflate(R.layout.fragment_hello, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
