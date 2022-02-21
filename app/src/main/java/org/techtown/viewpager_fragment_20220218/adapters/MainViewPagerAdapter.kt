@@ -6,9 +6,9 @@ import androidx.fragment.app.FragmentPagerAdapter
 import org.techtown.viewpager_fragment_20220218.fragments.*
 
 class MainViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
-    override fun getCount(): Int {
-        return 3
-    }
+
+    override fun getCount() = 3
+
 //                        각 포지션에 어떤 프래그먼트 나가?
     override fun getItem(position: Int): Fragment {
 
